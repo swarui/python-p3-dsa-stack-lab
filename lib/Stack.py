@@ -20,7 +20,6 @@ class Stack:
 
     def peek(self):
         if not self.isEmpty():
-            # raise Exception("Stack is Empty!")
             return self.items[-1]
     
     def size(self):
